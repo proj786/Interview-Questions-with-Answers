@@ -1,0 +1,14 @@
+1. Two table : A : 1,1,2,2,3,NULL,NULL
+               B: 1,1,1,2,4,null
+   perform inner join , left join ,right join
+   select when col isnull()
+   select when col = null
+   select distinct and using group by and see the differerenced between the two.
+   
+2. Convert gender column in numerical (python)
+3. Find median in sql
+4. Find cumulative sum in sql
+5. what is type 1 error
+6. explain decision tree
+7. what is adjusted R square
+
