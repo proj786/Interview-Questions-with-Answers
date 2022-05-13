@@ -11,4 +11,9 @@
 5. what is type 1 error
 6. explain decision tree
 7. what is adjusted R square
+8. rownumber(), rank(), dense_rank() explain?
+9. Explain confusion matrix?
+10. what is precision , recall and F1 score ? give esxample where precision should be small and where recall should be high and vice versa.
+11. what is central limit theorem and outlier detection using.
+12. Why random forests instead of decision tree?
 
