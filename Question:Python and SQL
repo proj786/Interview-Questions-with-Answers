@@ -1,0 +1,124 @@
+1. Write a python function to convert list into string. (2
+marks ) Input: ['sun','mon','tue']
+Output: “sun mon tue”
+2. Write a python program to check whether the given key exists in dictionary or
+not.(2 marks)
+Input: {1: 10, 2:20}
+Output: True if check for 2 or 1, false if check for any other value
+3. Write a python function “remove duplicates” to remove duplicates from a list. (3
+marks) Input: [1, 2, 2, 1, 3, 4]
+Output: [1, 2, 3, 4]
+4. Find all the numbers from list that have 6 in them using list comprehension. (3
+marks) Input: [8, 16, 20, 30, 80, 60]
+Output: [16, 60]
+5. Write a Python program to compute the sum of all the multiples of 3 or 5 below
+500.(4 marks)
+Input: [1, 2… 500]
+Output: 57918
+6. Write a lambda function that multiplies argument x with argument y and
+print the result. (1.5 marks)
+3
+Input: x=15,
+y=10 Output:
+150
+7. Write a lambda function to check if number is divisible by another number
+with 0 remainder (1.5 marks)
+Input: 4, 2 (4 is multiple of
+2) Output: True
+8. Write the syntax for inner merge of two DataFrame (df1, df2) when the common
+column is named as “worker” in df1 and “employee” in df2. (df1 is the left table
+and df2 is the right table) (4 Marks)
+9. Run the following syntaxes to get the DataFrame: (4 Marks)
+For each occupation, calculate the mean and max age
+
+
+
+
+
+
+
+
+
+SQL
+
+• Copy the SQL commands below to create schema of the above tables in
+theSchema Panel of SQLFiddle.
+CREATE TABLE salesman (
+
+salesmanid
+int, name
+varchar(255)
+, city
+varchar(255)
+, commision
+int
+);
+-- insert some values
+INSERT INTO salesman
+(salesmanid,name,city,commision) VALUES (5001,
+"James Hoog", "New York", .15);
+INSERT INTO salesman
+(salesmanid,name,city,commision) VALUES (5002,
+"Nail Knite", "Paris", .13);
+INSERT INTO salesman
+(salesmanid,name,city,commision) VALUES (5005,
+"Pit Alex", "London", .11);
+INSERT INTO salesman
+(salesmanid,name,city,commision) VALUES (5006,
+"Mc Lyon", "Paris", .14);
+INSERT INTO salesman
+(salesmanid,name,city,commision) VALUES (5007,
+"Paul Adam", "Rome", .13);
+INSERT INTO salesman
+(salesmanid,name,city,commision) VALUES (5003,
+"Lauson Hen", "San Jose", .12);
+7
+CREATE TABLE customer (
+ customerid
+int, custname
+varchar(255),
+city
+varchar(255),
+grade int,
+first_puchase
+date,
+salesmanid int
+);
+INSERT INTO customer
+(customerid,custname,city,grade,first_puchase,salesmanid) VALUES (3002,
+"Nick Rimando", "New York", 100,'2020-12-17', 5001);
+INSERT INTO customer
+(customerid,custname,city,grade,first_puchase,salesmanid) VALUES (3007, "Brad
+Davis", "New York", 200,'2020-11-10', 5001);
+INSERT INTO customer
+(customerid,custname,city,grade,first_puchase,salesmanid) VALUES (3005,
+"Graham Zusi", "California", 200,'2020-10-19', 5002);
+INSERT INTO customer
+(customerid,custname,city,grade,first_puchase,salesmanid) VALUES (3008,
+"Julian Green", "London", 300,'2020-02-21', 5002);
+INSERT INTO customer
+(customerid,custname,city,grade,first_puchase,salesmanid) VALUES (3004,
+"Fabian Johnson", "Paris", 300,'2020-06-07', 5006);
+INSERT INTO customer
+(customerid,custname,city,grade,first_puchase,salesmanid) VALUES (3009,
+"Geoff Cameron", "Berlin", 100,'2020-12-30', 5003);
+INSERT INTO customer
+(customerid,custname,city,grade,first_puchase,salesmanid) VALUES (3003, "Jozy
+Altidor", "Moscow", 200,'2020-09-01', 5007);
+INSERT INTO customer (customerid,custname,city,grade,first_puchase,salesmanid)
+VALUES (3001, "BRAD Guzan", "London", 100,'2020-11-29', 5005);
+INSERT INTO customer (customerid,custname,city,grade,first_puchase,salesmanid)
+VALUES (3006, "brad Guzan", "London", 100,'2020-06-20', 5005);
+
+Note: Use “’salesmanid”’ column to join the
+tables Write MySQL queries for the following
+questions
+1. Find customer details (with salesman information) where grade is greater than
+100and commission is greater than 14. (3 marks)
+2. Find all customer records containing the word "brad" in the name,
+regardlessof whether it was stored as BRAD, Brad, brad (3marks)
+3. Find the details for the customer who recently make his first purchase(4 marks)
+4. Find number of salesid for each city in ascending order(4 marks)
+5. Find number of records from customer table with new York city (2 mark)
+6. Find the details for salesman and customer where customer make their first
+purchasein the month of November (4 marks)
